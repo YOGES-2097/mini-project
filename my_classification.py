@@ -5,8 +5,6 @@ from sklearn.metrics import accuracy_score
 
 def show_page(df):
     st.title("Logistic Regression (Classification)")
-    
-    # Target: automation_risk_category
     X = df[['ai_replacement_score', 'skill_gap_index', 'skill_demand_growth_percent']]
     y = df['automation_risk_category']
     
