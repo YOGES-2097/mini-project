@@ -1,0 +1,16 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Streamlit/OS files
+.streamlit/
+.DS_Store
+
+# Data (Optional)
+# If your CSV is very large, ignore it so it doesn't slow down your Git
+ai_job_replacement_2020_2026_v2.csv
